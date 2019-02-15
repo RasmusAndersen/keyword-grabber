@@ -51,8 +51,7 @@ if __name__ == "__main__":
                         for keyword in keywords:
                             # check if there is a keyword in the current line
                             if keyword in line:
-                                # remove the keyword from the line, and remove leading whitespace
-                                line = line.replace(keyword, '')
+                                # remove leading whitespace
                                 line = line.lstrip()
                                 line = line.replace('\n', '')
 
