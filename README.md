@@ -1,5 +1,5 @@
 # keyword-grabber
-Similar to grep, it searches directories and sub-directories for keywords
+Similar to grep, it searches directories and sub-directories for keywords. The output can either come in a csv-fileformat, a json format or a markdown table format.
 
 # Examples:
 1. Search for `# TODO:` and `# NOTE:` keywords in current and all subdirectories to current directory, and save them to a file `todo.csv` in csv format:
